@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SeniorNurseViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O3P-HI-QV4">
+                    <rect key="frame" x="200" y="200" width="200" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seniorNursePart.png" translatesAutoresizingMaskIntoConstraints="NO" id="BWi-Vv-ZUZ">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="bjA-ew-nzx"/>
+                                <constraint firstAttribute="height" constant="200" id="hnC-VG-auA"/>
+                            </constraints>
+                            <variation key="heightClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                            </variation>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIa-SI-eih" userLabel="Button-2">
+                            <rect key="frame" x="100" y="0.0" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="sYX-2D-RFb"/>
+                                <constraint firstAttribute="width" constant="100" id="zn6-rP-BzX"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="100" y="0.0" width="100" height="100"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <rect key="frame" x="100" y="0.0" width="100" height="100"/>
+                            </variation>
+                            <connections>
+                                <action selector="part2Pressed:" destination="-1" eventType="touchUpInside" id="cbA-Gf-ftA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhb-0o-a4L" userLabel="Button-3">
+                            <rect key="frame" x="0.0" y="100" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Lbp-i8-Z6F"/>
+                                <constraint firstAttribute="height" constant="100" id="tU9-iu-Q5B"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="100" width="100" height="100"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <rect key="frame" x="0.0" y="100" width="100" height="100"/>
+                            </variation>
+                            <connections>
+                                <action selector="part3Pressed:" destination="-1" eventType="touchUpInside" id="6fb-WM-jfH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbL-RQ-rBJ" userLabel="Button-4">
+                            <rect key="frame" x="100" y="100" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="n4W-Lc-rhk"/>
+                                <constraint firstAttribute="height" constant="100" id="pz7-0N-D1Y"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="100" y="100" width="100" height="100"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <rect key="frame" x="100" y="100" width="100" height="100"/>
+                            </variation>
+                            <connections>
+                                <action selector="part4Pressed:" destination="-1" eventType="touchUpInside" id="27e-XL-bRZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khb-TM-4N9" userLabel="Button-1">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="gMR-U2-69i"/>
+                                <constraint firstAttribute="height" constant="100" id="pY1-Ri-FYo"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="heightClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                            </variation>
+                            <connections>
+                                <action selector="part1Pressed:" destination="-1" eventType="touchUpInside" id="sas-54-m8z"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="xbL-RQ-rBJ" secondAttribute="bottom" id="28m-Im-jha"/>
+                        <constraint firstAttribute="centerY" secondItem="BWi-Vv-ZUZ" secondAttribute="centerY" id="6WS-7k-XXC"/>
+                        <constraint firstItem="BWi-Vv-ZUZ" firstAttribute="top" secondItem="O3P-HI-QV4" secondAttribute="top" id="8ai-J8-jbb"/>
+                        <constraint firstAttribute="trailing" secondItem="BWi-Vv-ZUZ" secondAttribute="trailing" id="DdF-Pn-IUE"/>
+                        <constraint firstItem="NIa-SI-eih" firstAttribute="leading" secondItem="Khb-TM-4N9" secondAttribute="trailing" id="EmI-j3-C1F"/>
+                        <constraint firstItem="fhb-0o-a4L" firstAttribute="leading" secondItem="O3P-HI-QV4" secondAttribute="leading" id="Ohd-4o-MUU"/>
+                        <constraint firstItem="NIa-SI-eih" firstAttribute="top" secondItem="O3P-HI-QV4" secondAttribute="top" id="PR0-M4-yjW"/>
+                        <constraint firstItem="BWi-Vv-ZUZ" firstAttribute="leading" secondItem="O3P-HI-QV4" secondAttribute="leading" id="QYj-Zy-dDL"/>
+                        <constraint firstAttribute="bottom" secondItem="BWi-Vv-ZUZ" secondAttribute="bottom" id="QwL-6F-6MR"/>
+                        <constraint firstAttribute="trailing" secondItem="xbL-RQ-rBJ" secondAttribute="trailing" id="RmH-h6-5d7"/>
+                        <constraint firstItem="Khb-TM-4N9" firstAttribute="top" secondItem="O3P-HI-QV4" secondAttribute="top" id="Rsr-Yw-45x"/>
+                        <constraint firstItem="Khb-TM-4N9" firstAttribute="leading" secondItem="O3P-HI-QV4" secondAttribute="leading" id="VW7-sd-ZFr"/>
+                        <constraint firstItem="xbL-RQ-rBJ" firstAttribute="leading" secondItem="fhb-0o-a4L" secondAttribute="trailing" id="W6F-fd-maD"/>
+                        <constraint firstAttribute="centerX" secondItem="BWi-Vv-ZUZ" secondAttribute="centerX" id="fdw-tS-Ugp"/>
+                        <constraint firstAttribute="bottom" secondItem="fhb-0o-a4L" secondAttribute="bottom" id="fjH-sc-CXv"/>
+                        <constraint firstAttribute="trailing" secondItem="NIa-SI-eih" secondAttribute="trailing" id="gLO-Om-wOp"/>
+                        <constraint firstItem="NIa-SI-eih" firstAttribute="leading" secondItem="Khb-TM-4N9" secondAttribute="trailing" id="lAn-gx-F5t"/>
+                        <constraint firstItem="xbL-RQ-rBJ" firstAttribute="leading" secondItem="fhb-0o-a4L" secondAttribute="trailing" id="xKK-ex-wGs"/>
+                    </constraints>
+                    <variation key="heightClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="200" y="100" width="200" height="200"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="100" y="300" width="200" height="200"/>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.73725490196078436" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="O3P-HI-QV4" secondAttribute="centerX" id="QgY-5l-txM"/>
+                <constraint firstAttribute="centerY" secondItem="O3P-HI-QV4" secondAttribute="centerY" id="iJF-C4-2lG"/>
+            </constraints>
+            <point key="canvasLocation" x="-140" y="337"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="seniorNursePart.png" width="200" height="200"/>
+    </resources>
+</document>

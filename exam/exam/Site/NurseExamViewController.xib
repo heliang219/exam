@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NurseExamViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RuG-3w-fTq">
+                    <rect key="frame" x="180" y="45" width="200" height="325"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKY-Hn-bPQ">
+                            <rect key="frame" x="100" y="0.0" width="100" height="325"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="r4z-wW-pUC"/>
+                                <constraint firstAttribute="height" constant="325" id="sOV-KZ-kls"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="nursePart2.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="nursePart2.png"/>
+                            <connections>
+                                <action selector="part2Pressed:" destination="-1" eventType="touchUpInside" id="Sjw-0N-56U"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAb-Y0-j2z">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="325"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="bRV-5d-8xb"/>
+                                <constraint firstAttribute="height" constant="325" id="zak-N8-oq7"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="nursePart1.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="nursePart1.png"/>
+                            <connections>
+                                <action selector="part1Pressed:" destination="-1" eventType="touchUpInside" id="rZf-F0-r3B"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="iKY-Hn-bPQ" firstAttribute="top" secondItem="RuG-3w-fTq" secondAttribute="top" id="5tJ-LW-1HN"/>
+                        <constraint firstItem="iKY-Hn-bPQ" firstAttribute="leading" secondItem="HAb-Y0-j2z" secondAttribute="trailing" id="67q-47-yBY"/>
+                        <constraint firstAttribute="bottom" secondItem="iKY-Hn-bPQ" secondAttribute="bottom" id="6If-Lq-4wF"/>
+                        <constraint firstAttribute="width" constant="200" id="8AP-kW-Ikn"/>
+                        <constraint firstItem="HAb-Y0-j2z" firstAttribute="top" secondItem="RuG-3w-fTq" secondAttribute="top" id="Bts-5K-yBB"/>
+                        <constraint firstAttribute="centerY" secondItem="HAb-Y0-j2z" secondAttribute="centerY" id="Cea-mh-TEB"/>
+                        <constraint firstItem="iKY-Hn-bPQ" firstAttribute="leading" secondItem="HAb-Y0-j2z" secondAttribute="trailing" id="IZW-k6-E76"/>
+                        <constraint firstAttribute="trailing" secondItem="iKY-Hn-bPQ" secondAttribute="trailing" id="UEE-vc-EDg"/>
+                        <constraint firstItem="HAb-Y0-j2z" firstAttribute="leading" secondItem="RuG-3w-fTq" secondAttribute="leading" id="dQp-kd-pji"/>
+                        <constraint firstAttribute="height" constant="325" id="etr-Q9-aTy"/>
+                        <constraint firstAttribute="bottom" secondItem="HAb-Y0-j2z" secondAttribute="bottom" id="pOA-jj-wj5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.73725490196078436" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="RuG-3w-fTq" secondAttribute="centerX" id="8Xv-9R-4se"/>
+                <constraint firstAttribute="centerY" secondItem="RuG-3w-fTq" secondAttribute="centerY" id="LFI-ax-d74"/>
+            </constraints>
+            <point key="canvasLocation" x="44" y="194"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nursePart1.png" width="100" height="325"/>
+        <image name="nursePart2.png" width="100" height="325"/>
+    </resources>
+</document>
